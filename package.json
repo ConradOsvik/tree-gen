@@ -1,0 +1,30 @@
+{
+	"name": "tree-gen",
+	"version": "1.0.0",
+	"description": "Generate a text tree view of a folder structure",
+	"main": "dist/cli.js",
+	"type": "module",
+	"bin": {
+		"tree-gen": "./dist/cli.js"
+	},
+	"scripts": {
+		"build": "tsc",
+		"start": "node dist/cli.js"
+	},
+	"keywords": [
+		"tree",
+		"directory",
+		"structure",
+		"cli"
+	],
+	"author": "Conrad Osvik",
+	"license": "MIT",
+	"dependencies": {
+		"commander": "^12.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.5",
+		"typescript": "^5.6.2"
+	},
+	"packageManager": "pnpm@9.11.0"
+}
