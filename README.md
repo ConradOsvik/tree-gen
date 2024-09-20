@@ -1,37 +1,37 @@
-# file-tree
+# tree-map
 
-`file-tree` is a command-line tool that generates a text tree view of a folder structure.
+`tree-map` is a command-line tool that generates a text tree view of a folder structure.
 
 ## Installation
 
-To install `file-tree`, you need to have [Node.js](https://nodejs.org/) installed. Then, you can install it globally using npm, pnpm, or yarn:
+To install `tree-map`, you need to have [Node.js](https://nodejs.org/) installed. Then, you can install it globally using npm, pnpm, or yarn:
 
 ```sh
-npm install -g file-tree
+npm install -g tree-map
 ```
 
 ```sh
-pnpm add -g file-tree
+pnpm add -g tree-map
 ```
 
 ```sh
-yarn global add file-tree
+yarn global add tree-map
 ```
 
 You can also run it directly using `npx` or `pnpx` without installing it globally:
 
 ```sh
-npx file-tree
+npx tree-map
 ```
 
 ```sh
-pnpx file-tree
+pnpx tree-map
 ```
 
 ## Usage
 
 ```sh
-file-tree [options]
+tree-map [options]
 ```
 
 ### Options
@@ -47,19 +47,19 @@ file-tree [options]
 Generate a tree view for the current directory and print it to the console:
 
 ```sh
-file-tree
+tree-map
 ```
 
 Generate a tree view for a specific directory and save it to a file:
 
 ```sh
-file-tree --path /path/to/directory --output tree.txt
+tree-map --path /path/to/directory --output tree.txt
 ```
 
-Ignore specific folders:
+Ignore specific files and folders:
 
 ```sh
-file-tree --ignore folders,to,ignore
+tree-map --ignore files,and,folders,to,ignore
 ```
 
 ## License

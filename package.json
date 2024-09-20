@@ -1,11 +1,11 @@
 {
-	"name": "tree-gen",
+	"name": "tree-map",
 	"version": "1.0.0",
 	"description": "Generate a text tree view of a folder structure",
 	"main": "dist/cli.js",
 	"type": "module",
 	"bin": {
-		"tree-gen": "./dist/cli.js"
+		"tree-map": "./dist/cli.js"
 	},
 	"scripts": {
 		"build": "tsc",
