@@ -26,5 +26,8 @@
 		"@types/node": "^22.5.5",
 		"typescript": "^5.6.2"
 	},
+	"files": [
+		"dist"
+	],
 	"packageManager": "pnpm@9.11.0"
 }
