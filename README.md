@@ -1,37 +1,37 @@
-# tree-map
+# treeplan
 
-`tree-map` is a command-line tool that generates a text tree view of a folder structure.
+`treeplan` is a command-line tool that generates a text tree view of a folder structure.
 
 ## Installation
 
-To install `tree-map`, you need to have [Node.js](https://nodejs.org/) installed. Then, you can install it globally using npm, pnpm, or yarn:
+To install `treeplan`, you need to have [Node.js](https://nodejs.org/) installed. Then, you can install it globally using npm, pnpm, or yarn:
 
 ```sh
-npm install -g tree-map
+npm install -g treeplan
 ```
 
 ```sh
-pnpm add -g tree-map
+pnpm add -g treeplan
 ```
 
 ```sh
-yarn global add tree-map
+yarn global add treeplan
 ```
 
 You can also run it directly using `npx` or `pnpx` without installing it globally:
 
 ```sh
-npx tree-map
+npx treeplan
 ```
 
 ```sh
-pnpx tree-map
+pnpx treeplan
 ```
 
 ## Usage
 
 ```sh
-tree-map [options]
+treeplan [options]
 ```
 
 ### Options
@@ -47,19 +47,19 @@ tree-map [options]
 Generate a tree view for the current directory and print it to the console:
 
 ```sh
-tree-map
+treeplan
 ```
 
 Generate a tree view for a specific directory and save it to a file:
 
 ```sh
-tree-map --path /path/to/directory --output tree.txt
+treeplan --path /path/to/directory --output tree.txt
 ```
 
 Ignore specific files and folders:
 
 ```sh
-tree-map --ignore files,and,folders,to,ignore
+treeplan --ignore files,and,folders,to,ignore
 ```
 
 ## License

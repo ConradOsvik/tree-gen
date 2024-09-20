@@ -9,15 +9,16 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// Read and parse package.json to get the version
+// Read and parse package.json to get the name and version
 const packageJsonPath = path.resolve(__dirname, '../package.json')
 const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'))
+const name = packageJson.name
 const version = packageJson.version
 
 const program = new Command()
 
 program
-	.name('file-tree')
+	.name(name)
 	.description('Generate a text tree view of a folder structure')
 	.version(version) // Use the version from package.json
 	.option(

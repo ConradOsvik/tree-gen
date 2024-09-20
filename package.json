@@ -1,11 +1,11 @@
 {
-	"name": "tree-map",
+	"name": "treeplan",
 	"version": "1.0.0",
 	"description": "Generate a text tree view of a folder structure",
 	"main": "dist/cli.js",
 	"type": "module",
 	"bin": {
-		"tree-map": "./dist/cli.js"
+		"treeplan": "./dist/cli.js"
 	},
 	"scripts": {
 		"build": "tsc",
