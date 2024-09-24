@@ -39,7 +39,8 @@ treeplan [options]
 -   `-V, --version`: Output the version number
 -   `-p, --path <path>`: The directory path to generate a tree view for (default: `.`)
 -   `-o, --output <file>`: Output file to save the tree view
--   `-i, --ignore <folders>`: Comma-separated list of folders to ignore (e.g., `node_modules,dist`) (default: `["node_modules","dist","build",".git"]`)
+-   `-i, --ignore <folders>`: Comma-separated list of folders to ignore (e.g., `node_modules`, `dist`) (default: `node_modules`, `.git`)
+-   `-n, --no-default-ignore`: Do not ignore default folders (`node_modules`, `.git`)
 -   `-h, --help`: Display help for command
 
 ### Example
@@ -60,6 +61,12 @@ Ignore specific files and folders:
 
 ```sh
 treeplan --ignore files,and,folders,to,ignore
+```
+
+Do not use default ignore patterns:
+
+```sh
+treeplan --no-default-ignore
 ```
 
 ## License

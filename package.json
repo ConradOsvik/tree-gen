@@ -1,6 +1,6 @@
 {
 	"name": "treeplan",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Generate a text tree view of a folder structure",
 	"main": "dist/cli.js",
 	"type": "module",
